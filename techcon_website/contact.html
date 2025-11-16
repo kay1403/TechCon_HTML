@@ -3,12 +3,12 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Contact</title>
+   <title>Contact Us</title>
 </head>
 
 <body>
    <header>
-      <h1>Contact</h1>
+      <h1>Contact Us</h1>
       <nav>
          <ul>
             <li><a href="index.html">Home</a></li>
@@ -22,24 +22,46 @@
 
    <main>
       <h2>Get in Touch</h2>
-      <p>Feel free to contact me using the form below.</p>
+
+      <p>You can reach us via email:</p>
+      <p>
+         <a href="mailto:email@example.com" target="_blank">
+            email@example.com
+         </a>
+      </p>
+
+      <h3>Our Location</h3>
+      <iframe 
+         src="https://www.google.com/maps" 
+         width="400" 
+         height="250">
+      </iframe>
+
+      <h3>Contact Form</h3>
 
       <form action="#" method="post">
          <label for="name">Name:</label>
          <input type="text" id="name" name="name" required>
 
+         <br><br>
+
          <label for="email">Email:</label>
          <input type="email" id="email" name="email" required>
 
+         <br><br>
+
          <label for="message">Message:</label>
          <textarea id="message" name="message" required></textarea>
+
+         <br><br>
 
          <button type="submit">Send Message</button>
       </form>
    </main>
 
    <footer>
-      <p>&copy; 2025 Your Name. All rights reserved.</p>
+      <p>&copy; 2025 Ange Koumba. All rights reserved.</p>
    </footer>
+
 </body>
 </html>
